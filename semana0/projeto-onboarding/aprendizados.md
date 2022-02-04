@@ -1,0 +1,3 @@
+**Aprendizados da semana**
+
+Nesta semana tivemos conhecimentos teóricos sobre controladores de **versionamentos**, além de termos ciência da diferença entre a ferramenta Git e o Github e suas respectivas funções. Adquirimos conhecimentos em comandos em linha e funcionalidade do Git através da prática. Entramos em assuntos essenciais como as branches, praticamos e aprendemos a subir para o Github para aprovação dos **Pull Requests**.
