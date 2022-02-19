@@ -52,11 +52,11 @@ function calculaIMC(peso, altura) {
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
   
-  let nome = prompt("Insira seu nome:")
-  let idade = prompt("Insira sua idade:")
-  let email = prompt("Insira seu email:")
+  let nome = prompt("nome:")
+  let idade = prompt()
+  let email = prompt("email")
 
-  console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}`)
+  console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
 
 }
 
@@ -120,13 +120,20 @@ function retornaUltimoElemento(array) {
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
+//APANHEI!
+intermediador = array[0]
+array[0] = array[array.length - 1]
+array[array.length -1] = intermediador 
+
+return array
 
 }
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  // implemente sua lógica aqui
+  x = string1.toLowerCase()
+  y = string2.toLowerCase()
+  return x === y
 
 }
 
