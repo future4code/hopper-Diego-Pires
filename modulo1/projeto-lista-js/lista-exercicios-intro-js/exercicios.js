@@ -25,12 +25,11 @@ function calculaAreaRetangulo() {
   let area = altura * largura
 
   console.log(area)
-
 }
 
 // EXERCÍCIO 02
 function imprimeIdade() {
-
+  
   let anoAtual = Number(prompt("Em qual ano estamos?"))
   let anoNasc = Number(prompt("Qual o ano do seu nascimento?"))
 
