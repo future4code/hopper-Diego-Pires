@@ -18,16 +18,18 @@ function imprimeMensagem() {
 
 // EXERCÍCIO 01
 function calculaAreaRetangulo() {
-  let altura = Number(prompt("Insira a altura do retângulo:"))
-  let largura = Number(prompt("Insira a largura do retângulo:"))
+  
+  let altura = Number(prompt("Entre com a altura do retângulo:"))
+  let largura = Number(prompt("Agora, insira a largura do retângulo"))
 
-  let areaRetangulo = altura * largura
+  let area = altura * largura
 
-  console.log(areaRetangulo)
+  console.log(area)
 }
 
 // EXERCÍCIO 02
 function imprimeIdade() {
+  
   let anoAtual = Number(prompt("Em qual ano estamos?"))
   let anoNasc = Number(prompt("Qual o ano do seu nascimento?"))
 
@@ -39,7 +41,7 @@ function imprimeIdade() {
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
-
+  
   let imc = peso / (altura * altura)
 
   return imc
@@ -48,59 +50,89 @@ function calculaIMC(peso, altura) {
 
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
-  let nome = prompt("Qual o seu nome?")
-  let idade = prompt("Qual sua idade?")
-  let email = prompt("Qual seu email?")
+  
+  let nome = prompt("nome:")
+  let idade = prompt()
+  let email = prompt("email")
 
-  console.log("Meu nome é",nome,",tenho",idade,"anos, e o meu email é",email)
+  console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
 
 }
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
-  // implemente sua lógica aqui
+
+  let arrayCores = []
+
+  let cor1 = prompt("Insira sua primeira cor favorita:")
+  let cor2 = prompt("Insira sua segunda cor favorita:")
+  let cor3 = prompt("Insira sua terceira cor favorita:")
+
+  arrayCores = [cor1, cor2, cor3]
+
+  console.log(arrayCores)  
 
 }
 
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
-  // implemente sua lógica aqui
+  
+  maiuscula = string.toUpperCase()
+
+  return maiuscula
 
 }
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
-  // implemente sua lógica aqui
+  
+  resultado = custo / valorIngresso
+
+  return resultado
 
 }
 
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
-  // implemente sua lógica aqui
+    
+  checagem = string1.length == string2.length
+
+    return checagem
 
 }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
-  // implemente sua lógica aqui
+    
+  return array[0]
 
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
-  // implemente sua lógica aqui
+  
+  lastElement = array[array.length - 1]
+
+  return lastElement
 
 }
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
-  // implemente sua lógica aqui
+//APANHEI!
+intermediador = array[0]
+array[0] = array[array.length - 1]
+array[array.length -1] = intermediador 
+
+return array
 
 }
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
-  // implemente sua lógica aqui
+  x = string1.toLowerCase()
+  y = string2.toLowerCase()
+  return x === y
 
 }
 
