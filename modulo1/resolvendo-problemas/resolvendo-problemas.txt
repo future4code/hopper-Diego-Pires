@@ -1,0 +1,19 @@
+Primeiro passo - conseguir destrinchar do enunciado as partes cruciais, as informações que serão úteis para que você
+dê ao seu código o objetivo principal(a solução).
+
+Segundo passo - Para tornar o código mais transparente, é preciso padronizá-lo de acordo com as boas maneiras de
+programação, o que inclui retirar "nomes referências", uso de verbos para nome de funções, a fim de tornar estes mais
+auto explicativos, dentre outros cuidados.
+
+Terceiro passo - Trazer fundamento ao seu código para entrada e saída de dados, além de pensar(se antecipar) às inúmeras
+variações que podem ocorrer no decorrer do uso do seu programa.
+
+Quatro passo - Monte esquemas visuais para que você possa ter mais familiaridade com o que precisa trazer ao seu código.
+
+Quinto passo - Implemente independente do código não estar otimizado, pois através dele você vai ajustando e criando 
+alternativas mais viáveis, e de acordo com o que pede o problema.
+
+Sexto passo - Caso precise, mesmo que com sua própria linguagem de interpretação, faça um escopo, um "código núcleo" 
+pouco criterioso quanto às regras de negócio, para ter mais clareza dos próximos passos e obter fluidez.
+
+Sétimo passo - Melhore seu código como um todo, sem precisar alterar a estrutura dele.
