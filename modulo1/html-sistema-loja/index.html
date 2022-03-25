@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nome da Loja</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Loja Setas - Aponta com o dedo e compra!</title>
 </head>
 <body>
     <div>
-        <h1>Bem-vind@ ao <em>nome da loja</em>!</h1>
-        <p>Frase de chamada para sua loja</p>
+        <td><img class="imagem-logo" src="img/logo.png" alt="Logo da empresa"/></td>
+        <span class="tel">Telefone: (17) 99881-7772</span>
+        <span class="email">Email: contecomigo@lojasetas.digital</span>
     </div>
 
-    <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
+    <div class="menu-bar">
+        <a  class="index-menu" href="index.html" style="text-decoration:none">Página Inicial</a>
+        <a class="estoque-menu" href="ctrl-estoque.html" style="text-decoration:none">Controle de Estoque</a>
+        <a class="produto-menu" href="add-produto.html" style="text-decoration:none">Adicionar Produto</a>
+        <a class="funcionarios-menu" href="funcionarios.html" style="text-decoration:none">Funcionários</a>
     </div>
+
+    <div class="barra-pesquisa">
+        <span class="frase-pesquisa">Pesquise pelo produto</span>
+        <input type="text" placeholder="Busca..">
+        <button>Pesquisar</button>      
+      </div> 
 
     <div>
         <!-- ADICIONAR INFORMAÇOES SOBRE SUA LOJINHA -->

@@ -1,0 +1,43 @@
+.imagem-logo{
+    margin-right: 40%;
+}
+
+.tel{
+    padding-right: 20px;
+}
+
+.menu-bar{
+    margin-left: 20%;
+    margin-top: 10px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.index-menu{
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.estoque-menu{
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.produto-menu{
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.funcionarios-menu{
+    font-weight: bold;
+}
+
+.barra-pesquisa {
+    margin-top: 20px;
+    padding-left: 30%;
+    background-color: #0a0a0a;
+    color: rgb(248, 248, 248);
+    font-weight: 700;
+  }
+
+  
+ 
