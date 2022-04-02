@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29ya3NwYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.btn-formacao, .btn-experiencia {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+  }
+
+.btn-formacao:hover, .btn-experiencia:hover{
+    background: rgb(187, 185, 185);
+}
+
+.descricao{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 11%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 200px;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: rgb(187, 185, 185);
+}
+
+.informacoes{
+    text-align: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.email-logo, .whats-logo, .linkedin-logo{
+    width: 20px;
+    padding-left: 15%;
+}
+
+h3{
+    text-align: center;
+}
+
+h2{
+    padding-bottom: 20px;
+}
