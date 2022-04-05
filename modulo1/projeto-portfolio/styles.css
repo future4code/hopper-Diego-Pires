@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29ya3NwYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.ref-experiencia, .ref-formacao {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+    font-family:'Times New Roman', Times, serif;
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+.ref-formacao:hover, .ref-experiencia:hover{
+    background: rgb(187, 185, 185);
+}
+
+.descricao{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 11%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 200px;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: rgb(187, 185, 185);
+}
+
+.informacoes{
+    text-align: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.email-logo, .whats-logo, .linkedin-logo{
+    width: 20px;
+    padding-left: 15%;
+}
+
+h3{
+    text-align: center;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+/*Page Experiência*/
+
+.experiencia{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.emp2{
+    margin-top: 60px;
+    margin-left: 7%;
+}
+
+.emp3{
+    margin-top: 60px;
+    margin-left: 14%;
+}
+
+.emp4{
+    margin-top: 60px;
+    margin-left: 21%
+}
+
+.exp{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+.ref-voltar{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    margin-left: 60%;
+    margin-top: 5%;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+    font-family:'Times New Roman', Times, serif;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.ref-voltar:hover{
+    background: rgb(187, 185, 185);
+}
+
+/*PAGE FORMAÇÃO*/
+.emp1-logo, .emp2-logo, .emp3-logo{
+    margin-bottom: 15px;
+    width: 90px;
+    display: flex;
+}
+
+.inst-1, .inst-2, .inst-3{
+    margin-top: 55px;
+    margin-left: 80px;
+}
