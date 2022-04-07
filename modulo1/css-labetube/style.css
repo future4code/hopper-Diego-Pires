@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: coral;
+}
+
+.imagem-logo{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+}
+
+.titulo-site, .frase-pesquisa{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.frase-pesquisa{
+    font-size: 20px;
+    margin-left: 500px;
+}
+
+.botao-login{
+    margin-left: 37%;
+    padding: 10px;
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito{
+    box-shadow: 2px 2px 2px 2px orange;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.rodape{
+    display: flex;
+    background-color: coral;
+    height: 50px;
+    width: 100vw;
+    position: sticky;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-ajuste{
+    display: flex;
+    padding: 50px 50px 50px 300px;
+}
