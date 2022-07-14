@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "./Styled";
 
 const CharacterListPage = () =>{
+
+    function CharacterList(){
+        const [characterList, setCharacterList] = useState({})
+    } 
+
     return(
         
         <div>
